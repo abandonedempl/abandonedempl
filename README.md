@@ -40,7 +40,7 @@ Full write-ups: [abandonedempl.github.io](https://abandonedempl.github.io)
 
 ## 🌱 Open Source
 
-These contributions were authored on my previous GitHub account, [jayfeng7](https://github.com/jayfeng7), which is no longer in use. The pull request links below are the original, verifiable records. Counts as of 2026-11-21.
+The pull request links below are the original, verifiable records. Counts as of 2026-11-21.
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERGED_PRS-17-2EA043?style=flat-square&labelColor=24292F" alt="merged pull requests" /> &nbsp; <img src="https://img.shields.io/badge/PROJECTS-7-0969DA?style=flat-square&labelColor=24292F" alt="projects" />
@@ -95,7 +95,7 @@ Full write-ups: [Open Source](https://abandonedempl.github.io/oss/)
 | bytedance/deer-flow | Reported unbounded skill-directory file reads, then submitted the bounded-read fix. | Fixed by my merged PR #6359, not an additional merged PR. | [Issue #6358](https://github.com/bytedance/deer-flow/issues/6358) · [PR #6359](https://github.com/bytedance/deer-flow/pull/6359) |
 | bytedance/deer-flow | Reported reproducible Windows MAX_PATH failures in document staging and router tests. | Upstream fix merged; implemented by GodBlf. | [Issue #6460](https://github.com/bytedance/deer-flow/issues/6460) · [Upstream fix #6467](https://github.com/bytedance/deer-flow/pull/6467) |
 
-Merged [deer-flow PR #6829](https://github.com/bytedance/deer-flow/pull/6829) was selected for the [XERJ Corpus Hub](https://hub.xerj.org/contributors/jayfeng7) as a reference example (recorded under the previous username).
+Merged [deer-flow PR #6829](https://github.com/bytedance/deer-flow/pull/6829) was selected for the XERJ Corpus Hub as a reference example.
 
 
 ## 🛠️ Tech Stack
