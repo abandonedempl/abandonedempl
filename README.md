@@ -23,7 +23,7 @@
 | Institution | Degree | Period |
 |---|---|---|
 | [The University of Hong Kong](https://www.hku.hk) | MSc, Computer Science and Technology | 2026.09–2027.07 |
-| [Nanjing Normal University](https://www.njnu.edu.cn) | BEng, Computer Science and Technology | 2026.09–2026.06 |
+| [Nanjing Normal University](https://www.njnu.edu.cn) | BEng, Computer Science and Technology | 2022.09–2026.06 |
 
 English: IELTS 7.5; CET-6.
 
