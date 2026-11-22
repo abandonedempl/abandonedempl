@@ -12,7 +12,7 @@
 
 | 🧭 **About Me** | |
 |---|---|
-| 🎓 | **吴官炫** — MSc in Computer Science and Technology @ [The University of Hong Kong](https://www.hku.hk) (2026.09–2027.07); BEng in Computer Science and Technology @ [Nanjing Normal University](https://www.njnu.edu.cn) (2022.09–2026.06) |
+| 🎓 | **吴官炫** — MSc student at [The University of Hong Kong](https://www.hku.hk) (2026.09–2027.07); BEng at [Nanjing Normal University](https://www.njnu.edu.cn) (2022.09–2026.06) |
 | 💼 | AI application development intern at **Vanjna (杭州梵域智能科技)** — built **FarmGuard**, a long-running compliance and anomaly-investigation agent (2026.06–2026.09) |
 | 🛠️ | Independently designed and built a **cross-border customer-operations agent** for WhatsApp sales follow-up (2026.09–2026.11) |
 | 📍 | Hangzhou, China |
@@ -31,13 +31,12 @@ English: IELTS 7.5; CET-6.
 
 | Project | What I did | Period |
 |---|---|---|
-| **FarmGuard** · Vanjna (杭州梵域智能), AI Application Development Intern | Built a long-running compliance agent for livestock operations. Unified domain schemas and MCP / CLI tools for environment, veterinary drug, inventory, mortality, and vaccination data; turned investigation steps into executable SOPs; budgeted context with prioritized blocks; retrieved structured memory (fact / decision / lesson / open loop) via FTS5 and BM25; and ran a trace-based evaluation loop on normal, abnormal, and ambiguous cases. The system reached an internal pilot. | 2026.06–2026.09 |
-| **Cross-border customer-operations agent** · Independent design and development | Built a workbench for WhatsApp customer communication and opportunity follow-up. Assembled MCP servers per request with schema and permission checks; graded tool effects so outbound messages require human approval; injected versioned wiki knowledge; ran a durable PostgreSQL task queue (serial per customer, parallel across customers); verified evidence with read-only specialist agents; and organized regression replay across tool calls, task execution, and evidence quality. | 2026.09–2026.11 |
-| **[CRM Agent Lab (public demo)](https://github.com/abandonedempl/crm-agent-lab-demo)** | Browser demo of a personal CRM agent workbench: review sample opportunities, inspect tool returns, confirm pending actions, and replay desensitized model runs. The full source remains private. | Public demo |
-| **[agent-reliability-repros](https://github.com/abandonedempl/agent-reliability-repros)** | Minimal, runnable reproductions of agent SDK reliability issues, including a Mastra `fetchWithRetry` cancellation case that was later fixed upstream. | 2026.10 |
+| **[FarmGuard](https://abandonedempl.github.io/work/farmguard/)** · Vanjna (杭州梵域智能科技), AI Application Development Intern | Built a long-running compliance and anomaly-investigation agent for livestock operations. Unified domain schemas and MCP / CLI tools, turned investigation steps into executable SOPs, budgeted context, and ran a trace-based evaluation loop. The system reached an internal pilot. | 2026.06–2026.09 |
+| **[Cross-border customer-operations agent](https://abandonedempl.github.io/work/customer-agent/)** · Independent design and development | Built a WhatsApp sales follow-up workbench with permissioned tool use, versioned knowledge, a durable PostgreSQL task queue, and layered evaluation. | 2026.09–2026.11 |
+| **[CRM Agent Lab (public demo)](https://abandonedempl.github.io/crm-agent-lab-demo/)** | Browser demo of a personal CRM agent workbench: inspect tool returns, confirm pending actions, and replay desensitized model runs. The full source remains private. [Source for the public demo](https://github.com/abandonedempl/crm-agent-lab-demo). | Public demo |
+| **[agent-reliability-repros](https://abandonedempl.github.io/work/agent-reliability-repros/)** | Minimal, runnable reproductions of agent SDK reliability issues, including a Mastra `fetchWithRetry` cancellation case that was later fixed upstream in [`@mastra/core@1.75.0`](https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.75.0) ([mastra#26164](https://github.com/mastra-ai/mastra/pull/26164)). This repository is a reproduction, not the upstream fix. [Source](https://github.com/abandonedempl/agent-reliability-repros). | 2026.10 |
 
 Full write-ups: [abandonedempl.github.io](https://abandonedempl.github.io)
-
 
 ## 🛠️ Tech Stack
 
@@ -52,6 +51,7 @@ Full write-ups: [abandonedempl.github.io](https://abandonedempl.github.io)
   <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white" alt="Hono" />
   <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
